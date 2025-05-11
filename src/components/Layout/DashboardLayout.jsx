@@ -9,7 +9,7 @@ const DashboardLayout = ({ children, className = '' }) => {
     return (
         <SidebarProvider>
             <Appsidebar />
-            <main className="w-full relative min-h-screen">
+            <main className="w-full flex flex-col relative min-h-screen">
                 <Header />
                 {children}
             </main>
