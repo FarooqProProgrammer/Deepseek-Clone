@@ -3,7 +3,9 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <DashboardLayout></DashboardLayout>
+    <DashboardLayout>
+      
+    </DashboardLayout>
   )
 }
 
