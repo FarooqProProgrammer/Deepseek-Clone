@@ -1,7 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import 'react-edit-text/dist/index.css';
-
+import '@fontsource/poppins';
 
 
 const geistSans = Geist({
